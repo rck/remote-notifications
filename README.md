@@ -13,6 +13,7 @@ Setup
 - notify-send has to work on your local PC. Test it with `notify-send "foo bar"`
 - I use remote-notifications that are tunneled via ssh. If you plan to use it
 that way, add a RemoteForward entry to your `.ssh/config`:
+
 ```
 Host yourserver
 RemoteForward 22001 localhost:2225
